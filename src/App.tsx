@@ -1,9 +1,10 @@
 import "./App.css";
+import dixieTechPharmacyLogo from "./assets/DixieTech_Pharmacy.png";
 
 function App() {
   return (
     <>
-      <p>Pharmacy App</p>
+      <img src={dixieTechPharmacyLogo} alt="Dixie Tech Pharmacy App Logo" />
     </>
   );
 }
